@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Khushi",
-  lastName: "Bagga",
+  firstName: "Selene",
+  lastName: "Yu",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Lawyer",
+  role: "Design Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I write about law, society, and the fine print that shapes our world — with a 
-      side of legal curiosity and a dash of technology.
+      I occasionally write about design, technology, and share thoughts on the intersection of
+      creativity and engineering.
     </>
   ),
 };
@@ -63,8 +63,8 @@ const home = {
   },
   subline: (
     <>
-      I'm Khushi, a lawyer navigating the evolving intersections of law and technology.
-      <br /> Off the clock, I write, research, and follow where curiosity leads.
+      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      <br /> user experiences. After hours, I build my own projects.
     </>
   ),
 };
